@@ -1,6 +1,6 @@
-unique_name: m_HoleFoods_Sales
+unique_name: Units Sold
 object_type: metric
-label: M Hole Foods Sales
+label: Units Sold
 calculation_method: sum
 column: UnitsSold
 dataset: HoleFoods Sales

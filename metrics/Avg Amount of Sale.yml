@@ -1,0 +1,6 @@
+unique_name: Avg Amount of Sale
+object_type: metric
+label: Avg Amount of Sale
+calculation_method: average
+column: AmountOfSale
+dataset: HoleFoods Sales
