@@ -1,0 +1,6 @@
+unique_name: HoleFoods Sales
+object_type: dataset
+label: HoleFoods Sales
+columns: []
+connection_id: con_default_HoleFoods
+table: SalesTransaction

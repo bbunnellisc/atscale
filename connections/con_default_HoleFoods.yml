@@ -1,0 +1,6 @@
+unique_name: con_default_HoleFoods
+object_type: connection
+label: con_default_HoleFoods
+as_connection: IRIS 2025.2
+database: default
+schema: HoleFoods
