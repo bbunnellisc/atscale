@@ -1,11 +1,19 @@
 unique_name: HoleFoods
 object_type: model
 label: HoleFoods
-metrics: []
+metrics:
+  - unique_name: New Metric
 relationships:
   - unique_name: New_Dataset_empty_dimension
     from:
       dataset: New Dataset
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
+  - unique_name: HoleFoods_Sales_empty_dimension
+    from:
+      dataset: HoleFoods Sales
       join_columns: []
     to:
       dimension: ''
