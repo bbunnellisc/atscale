@@ -4,8 +4,16 @@ label: HoleFoods
 dimensions:
   - Product
   - Outlet Dimension
+  - Date_Of_Sale
 metrics:
   - unique_name: New Metric
   - unique_name: Avg Amount of Sale
   - unique_name: Units Sold
-relationships: []
+relationships:
+  - unique_name: empty_dataset_New_Dimension
+    from:
+      dataset: ''
+      join_columns: []
+    to:
+      dimension: New Dimension
+      level: ''
