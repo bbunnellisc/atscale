@@ -6,5 +6,6 @@ dimensions:
   - Outlet Dimension
 metrics:
   - unique_name: New Metric
-  - unique_name: m_HoleFoods_Sales_AmountOfSale_sum
+  - unique_name: Avg Amount of Sale
+  - unique_name: Units Sold
 relationships: []
