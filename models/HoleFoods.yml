@@ -1,20 +1,10 @@
 unique_name: HoleFoods
 object_type: model
 label: HoleFoods
+dimensions:
+  - Product
+  - Outlet Dimension
 metrics:
   - unique_name: New Metric
-relationships:
-  - unique_name: New_Dataset_empty_dimension
-    from:
-      dataset: New Dataset
-      join_columns: []
-    to:
-      dimension: ''
-      level: ''
-  - unique_name: HoleFoods_Sales_empty_dimension
-    from:
-      dataset: HoleFoods Sales
-      join_columns: []
-    to:
-      dimension: ''
-      level: ''
+  - unique_name: m_HoleFoods_Sales_AmountOfSale_sum
+relationships: []

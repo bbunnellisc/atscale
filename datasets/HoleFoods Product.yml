@@ -1,6 +1,6 @@
-unique_name: New Dataset
+unique_name: HoleFoods Product
 object_type: dataset
-label: New Dataset
+label: HoleFoods Product
 columns:
   - name: ID
     data_type: string
