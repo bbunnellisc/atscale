@@ -9,6 +9,8 @@ metrics:
   - unique_name: New Metric
   - unique_name: Avg Amount of Sale
   - unique_name: Units Sold
+  - unique_name: m_HoleFoods_Sales_AmountOfSale_sum (1)
+  - unique_name: m_HoleFoods_Sales_ZipCode_non-null
 relationships:
   - unique_name: empty_dataset_New_Dimension
     from:

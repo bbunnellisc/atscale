@@ -31,4 +31,7 @@ columns:
   - name: ZipCode
     data_type: string
 connection_id: con_default_HoleFoods
+incremental:
+  column: ID
+  grace_period: 86400s
 sql: select * from HoleFoods.SalesTransaction
