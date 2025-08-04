@@ -3,12 +3,12 @@ object_type: dimension
 label: Outlet
 hierarchies: []
 level_attributes:
-  - unique_name: New Dataset_empty_attr
-    label: New Dataset_empty_attr
+  - unique_name: HoleFoods Outlet_City
+    label: HoleFoods Outlet_City
     contains_unique_names: false
-    dataset: New Dataset
+    dataset: HoleFoods Outlet
     is_hidden: true
     is_unique_key: false
     key_columns: []
-    name_column: ''
+    name_column: 'City'
 type: standard

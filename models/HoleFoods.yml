@@ -6,16 +6,15 @@ dimensions:
   - Outlet Dimension
   - Date_Of_Sale
 metrics:
-  - unique_name: New Metric
   - unique_name: Avg Amount of Sale
   - unique_name: Units Sold
   - unique_name: m_HoleFoods_Sales_AmountOfSale_sum (1)
   - unique_name: m_HoleFoods_Sales_ZipCode_non-null
 relationships:
-  - unique_name: empty_dataset_New_Dimension
+  - unique_name: HoleFoods_Sales_Date_Of_Sale
     from:
-      dataset: ''
-      join_columns: []
+      dataset: 'HoleFoods Sales'
+      join_columns: [DateOfSale]
     to:
-      dimension: New Dimension
-      level: ''
+      dimension: Date_Of_Sale
+      level: 'Date_Of_Sale_Level'
