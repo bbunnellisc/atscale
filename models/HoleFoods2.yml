@@ -4,5 +4,5 @@ label: HoleFoods2
 dimensions:
   - Product
 metrics:
-  - unique_name: New Metric
+  - unique_name: Avg Amount of Sale
 relationships: []
