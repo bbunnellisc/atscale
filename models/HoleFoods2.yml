@@ -1,6 +1,8 @@
 unique_name: HoleFoods2
 object_type: model
 label: HoleFoods2
+dimensions:
+  - Product
 metrics:
   - unique_name: New Metric
 relationships: []
