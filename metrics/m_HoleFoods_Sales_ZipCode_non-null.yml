@@ -1,6 +1,0 @@
-unique_name: m_HoleFoods_Sales_ZipCode_non-null
-object_type: metric
-label: Zip Code
-calculation_method: count distinct
-column: ZipCode
-dataset: HoleFoods Sales

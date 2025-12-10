@@ -1,6 +1,0 @@
-unique_name: Units Sold
-object_type: metric
-label: Units Sold
-calculation_method: sum
-column: UnitsSold
-dataset: HoleFoods Sales
