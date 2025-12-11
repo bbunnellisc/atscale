@@ -5,4 +5,5 @@ dimensions:
   - Product
 metrics:
   - unique_name: Avg Amount of Sale
+  - unique_name: My Calculation
 relationships: []

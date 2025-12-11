@@ -1,0 +1,5 @@
+unique_name: My Calculation
+object_type: metric_calc
+label: My Calculation
+expression: Max([Measures].[Avg Amount of Sale])
+mdx_aggregate_function: MAX
