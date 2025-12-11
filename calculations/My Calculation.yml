@@ -1,5 +1,8 @@
 unique_name: My Calculation
 object_type: metric_calc
 label: My Calculation
-expression: Max([Product].[Product Hierarchy].[All],[Measures].[Avg Amount of Sale])
+expression: >-
+  Max([Product].[Product
+  Hierarchy].CurrentMember.FirstSibling:[Product].[Product
+  Hierarchy].CurrentMember.LastSibling,[Measures].[Avg Amount of Sale])
 mdx_aggregate_function: MAX
